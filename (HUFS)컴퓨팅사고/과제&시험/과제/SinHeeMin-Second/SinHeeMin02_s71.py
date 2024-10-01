@@ -1,0 +1,17 @@
+#Self study 7-1
+
+
+aa = [  ]
+
+for i in range(0,10):
+    aa.append(0)
+
+hap = 0
+i = 0
+
+while i <=9:
+    aa[i] = int(input(str(i+1)+'번째 숫자:'))
+    hap+=aa[i]
+    i+=1
+
+print('합계 ==> %d' %hap)
